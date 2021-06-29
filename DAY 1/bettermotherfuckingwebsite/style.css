@@ -1,0 +1,15 @@
+
+body {
+display: block;
+margin: 40px auto;
+max-width: 650px;
+font: monospace;
+color:#444;
+}
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}

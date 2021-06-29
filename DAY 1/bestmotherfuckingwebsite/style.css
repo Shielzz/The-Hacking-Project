@@ -1,0 +1,73 @@
+body {
+background-color: black;
+color: white;
+max-width: 800px;
+margin: 2em auto;
+font-family: Open Sans,Arial;
+line-height: 1.4;
+padding: 1em;
+text-align: justify;
+}
+
+.mfw {
+color: #730000;
+}
+
+.wr {
+color: orange;
+text-decoration: underline; 
+font-style: bold;
+}
+
+
+.cat-block {
+	display: block;
+}
+
+figure {
+	margin-right: 2em;
+	display: block;
+	float: left;
+}
+
+.cat-picture {
+    max-width: 350px;
+}
+
+.cont-inv {
+
+}
+
+.rainbow {
+	margin: auto;
+
+    animation: bgColor 5s infinite linear;
+    width: 200px;
+    height: 100px;
+  }
+  @keyframes bgColor {
+    12.5% {
+      color: #FF0000;
+    }
+    25% {
+      color: #FFA500;
+    }
+    37.5% {
+      color: #FFFF00;
+    }
+    50% {
+      color: #7FFF00;
+    }
+    62.5% {
+      color: #00FFFF;
+    }
+    75% {
+      color: #0000FF;
+    }
+    87.5% {
+      color: #9932CC;
+    }
+    100% {
+      color: #FF1493;
+    }
+  }

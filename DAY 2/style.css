@@ -1,0 +1,225 @@
+
+
+/* START HEADER : NAVBAR */
+
+	/* Header : container */
+
+header {
+	display: flex;
+	justify-content: flex-end;
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+	/* Header : nav text items  */
+
+header a {
+	line-height: 24px;
+	color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+	/* Header : nav grid icon  */
+
+header img {
+	opacity: 70%;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+header img:hover {
+
+}
+
+	/* Header : Sign-in button  */
+header button {
+	background-color: #1a73e8;
+	cursor: pointer;
+	border: solid 1px transparent;
+    font-size: 14px;
+    min-width: 116px;
+    height: 35px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+header button a {
+	color: white;
+	width: 100%;
+	align-items: center;
+	vertical-align: center;
+}
+
+	/* Header : nav grid icon  */
+header button:hover {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
+    background-color: #4285f4;
+}
+
+
+/* END HEADER : NAVBAR */
+
+
+
+
+/* START MAIN: Logo + Search bar; */
+
+.main-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+	/* MAIN: Logo */
+#logo-google {
+	box-sizing: border-box;
+	height: 100px;  
+}
+
+section img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+	/* MAIN : search bar + icons */
+
+.searchbar {
+    position: relative;
+    width: 482px;
+    margin-top: 20px;
+
+}
+
+.searchbar-box {
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: auto;
+    width: 100%;
+    height: 44px;
+
+    
+}
+
+
+.searchbar-icons {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+.under-field {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin: auto;
+	height: 50px;
+}
+
+/* END search bar: Search bar + icons */
+section button {
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.english {
+	text-decoration: none;
+	cursor: pointer;
+	font-size: small;
+	margin-bottom: 24px;
+}
+.english:hover {
+	text-decoration: underline;
+}
+
+
+/* END MAIN: Logo + Search bar; */
+
+
+
+
+
+/* START FOOTER */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.footer-boxes {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 15px 30px;
+    margin-left: -10px;
+    justify-content: space-between;
+}
+
+	/* Footer : #1 Line - France  */
+
+.footer-topline {
+	border-bottom: 1px solid #dadce0;
+	color: rgba(0,0,0,.54);
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	height: 32px;
+}
+
+	/* Footer : #2 Line - à propos -> paramètres  */
+
+.footer-bottomline {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+  
+    height: 32px;
+}
+
+.footer-bottomline a {
+	color: rgba(0,0,0,.54);
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+}
+
+.footer-wrap {
+	
+
+    
+}
+/* END FOOTER */
+
